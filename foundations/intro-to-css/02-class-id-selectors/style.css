@@ -1,0 +1,18 @@
+.odd-numbers {
+  background-color: hsl(351, 100%, 86%);
+}
+
+#element2 {
+  color: hsl(240, 100%, 50%);
+  font-size: 36px;
+}
+
+.element3 {
+  font-size: 24px;
+}
+
+#element4 {
+  font-size: 24px;
+  color: hsl(120, 48%, 64%);
+  font-weight: bold;
+}
