@@ -1,6 +1,6 @@
 /* this is some magical font-importing.  
 you'll learn about it later. */
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap");
 
 body {
   margin: 0;
@@ -11,12 +11,16 @@ body {
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between; /* Space between logo and nav */
+  align-items: center; /* Centers items vertically */
+  padding: 8px 16px; /* Adds padding around the header */
 }
 
 .profile-image {
   background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -27,6 +31,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding: 8px;
+  margin: 0;
 }
 
 button {
@@ -45,4 +51,15 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex; /* Makes the list items display in a row */
+  margin: 0; /* Removes default margin */
+  gap: 16px; /* Space between the list items */
+  padding: 0; /* Removes default padding */
+}
+
+.left,
+.right {
+  display: flex; /* Makes the left and right sections flex containers */
+  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally */
 }
